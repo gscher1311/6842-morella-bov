@@ -50,7 +50,7 @@ PROPERTY_TYPE = "value-add"  # DEAL-SPECIFIC: "value-add" or "stabilized"
 # Add/remove agents as needed per deal
 COVER_AGENTS = [  # DEAL-SPECIFIC
     {"name": "Glen Scher", "title": "SMDI", "img_key": "glen"},
-    {"name": "Filip Niculete", "title": "SVPI", "img_key": "filip"},
+    {"name": "Filip Niculete", "title": "SMDI", "img_key": "filip"},
     {"name": "Morgan Wetmore", "title": "Associate", "img_key": "team_morgan"},
 ]
 FOOTER_AGENTS = [  # DEAL-SPECIFIC
@@ -64,7 +64,7 @@ FOOTER_AGENTS = [  # DEAL-SPECIFIC
     },
     {
         "name": "Filip Niculete",
-        "title": "Senior Vice President Investments",
+        "title": "Senior Managing Director Investments",
         "phone": "(818) 212-2812",
         "email": "Filip.Niculete@marcusmillichap.com",
         "license": "01996429",
@@ -389,11 +389,11 @@ RENT_ROLL = [
 # - tier: 1 (primary), 2 (supporting), 3 (reference) — from COMP_ANALYSIS_PROTOCOL.md
 # - laaa: True if Glen/Filip/LAAA Team sold this comp (gets gold badge in table)
 SALE_COMPS = [
-    {"num": 1, "addr": "6234 Woodman Ave, Van Nuys", "units": 9, "yr": 1987, "sf": 7200, "price": 2648250, "ppu": 294250, "psf": 368, "cap": 5.12, "grm": 12.08, "date": "10/2025", "dom": 60, "notes": "RSO matched, primary anchor", "tier": 1, "laaa": False},
-    {"num": 2, "addr": "8425 Glenoaks Blvd, Sun Valley", "units": 8, "yr": 2003, "sf": 6400, "price": 1950000, "ppu": 243750, "psf": 305, "cap": 4.98, "grm": 12.42, "date": "08/2025", "dom": 75, "notes": "Mixed RSO", "tier": 1, "laaa": False},
-    {"num": 3, "addr": "5621 Klump Ave, N Hollywood", "units": 9, "yr": 1987, "sf": 7200, "price": 2450000, "ppu": 272222, "psf": 340, "cap": 5.31, "grm": 11.60, "date": "07/2025", "dom": 45, "notes": "RSO, value floor", "tier": 2, "laaa": False},
-    {"num": 4, "addr": "14622 Gilmore St, Van Nuys", "units": 6, "yr": 2009, "sf": 5400, "price": 2050000, "ppu": 341667, "psf": 380, "cap": 5.39, "grm": 12.10, "date": "05/2025", "dom": 45, "notes": "Non-RSO vintage match", "tier": 2, "laaa": False},
-    {"num": 5, "addr": "11356 Erwin St, N Hollywood", "units": 7, "yr": 1980, "sf": 5600, "price": 2047000, "ppu": 292429, "psf": 366, "cap": 4.77, "grm": 13.32, "date": "08/2024", "dom": 90, "notes": "RSO reference", "tier": 3, "laaa": False},
+    {"num": 1, "addr": "6234 Woodman Ave, Van Nuys", "units": 9, "yr": 1987, "sf": 9265, "price": 2648250, "ppu": 294250, "psf": 286, "cap": 5.12, "grm": 12.08, "date": "10/2025", "dom": 65, "notes": "RSO matched, primary anchor", "tier": 1, "laaa": False},
+    {"num": 2, "addr": "8425 Glenoaks Blvd, Sun Valley", "units": 8, "yr": 2003, "sf": 6508, "price": 1950000, "ppu": 243750, "psf": 300, "cap": 4.98, "grm": 12.42, "date": "08/2025", "dom": 23, "notes": "Mixed RSO", "tier": 1, "laaa": False},
+    {"num": 3, "addr": "5621 Klump Ave, N Hollywood", "units": 9, "yr": 1987, "sf": 9748, "price": 2450000, "ppu": 272222, "psf": 251, "cap": 5.31, "grm": 11.60, "date": "07/2025", "dom": 0, "notes": "RSO, value floor", "tier": 2, "laaa": False},
+    {"num": 4, "addr": "14622 Gilmore St, Van Nuys", "units": 6, "yr": 2009, "sf": 7770, "price": 2050000, "ppu": 341667, "psf": 264, "cap": 5.39, "grm": 12.10, "date": "05/2025", "dom": 8, "notes": "Non-RSO vintage match", "tier": 2, "laaa": False},
+    {"num": 5, "addr": "11356 Erwin St, N Hollywood", "units": 7, "yr": 1980, "sf": 6461, "price": 2047000, "ppu": 292429, "psf": 317, "cap": 4.77, "grm": 13.32, "date": "08/2024", "dom": 34, "notes": "RSO reference", "tier": 3, "laaa": False},
 ]
 
 # On-Market Comps
@@ -509,7 +509,7 @@ ON_MARKET_NARRATIVE = "No directly comparable active listings were identified in
 # P1: Anchor to Tier 1 weighted average. P2: Most recent data + confidence. P3 (optional): Limitations.
 PRICING_RATIONALE = """<p>Our suggested list price of $1.795M ($299K/unit) is anchored by two primary comparables - 6234 Woodman Ave ($294K/unit, RSO-matched, the strongest comp) and 8425 Glenoaks Blvd ($244K/unit, mixed RSO) - which, after adjustments for vintage and size, indicate a Tier 1 weighted average of $270K/unit. The subject at $299K/unit reflects a 6% premium to this anchor, justified by the cleanest regulatory profile in the portfolio (zero code enforcement, all permits finaled) and the largest loss-to-lease at $86K annually.</p>
 
-<p>The most recent transaction, 6234 Woodman Ave (October 2025, $294K/unit at a 5.12% cap), provides the freshest indicator of RSO multifamily pricing. Based on 5 comparable sales spanning July 2025 to May 2025, with 2 primary RSO-matched comps requiring moderate adjustments, we have HIGH confidence in this value range. The trade range of $1.65M-$1.85M ($275K-$308K/unit) is the tightest in the portfolio, reflecting strong comp support and excellent alignment with Morgan's independent pricing model at $1.75M.</p>"""  # DEAL-SPECIFIC
+<p>The most recent transaction, 6234 Woodman Ave (October 2025, $294K/unit at a 5.12% cap), provides the freshest indicator of RSO multifamily pricing. Based on 5 comparable sales spanning August 2024 to October 2025, with 2 primary RSO-matched comps requiring moderate adjustments, we have HIGH confidence in this value range. The trade range of $1.65M-$1.85M ($275K-$308K/unit) is the tightest in the portfolio, reflecting strong comp support and excellent alignment with Morgan's independent pricing model at $1.75M.</p>"""  # DEAL-SPECIFIC
 
 # Comp analysis confidence level — from COMP_ANALYSIS_PROTOCOL.md
 # "HIGH", "MODERATE", or "LOW" — displayed as badge in pricing section
